@@ -6,9 +6,9 @@ Welcome! This repository is a curated collection of resources for learning Syste
 
 ## 📚 Repository Contents
 
-- [`system_design_for_beginners`](system_design_for_beginners/system_design_for_beginners.md): In-depth beginner's guide to system design.
-- [`system_design_for_beginners`](system_design_for_beginners/dns_resolution.png): DNS process diagram (referenced in the guide).
-- [`Summary on th System Design for Beginners`](system_design_for_beginners/summary.md): Summary notes for quick revision.
+- [`system_design_for_beginners.md`](system_design_for_beginners/system_design_for_beginners.md): In-depth beginner's guide to system design.
+- [`dns_resolution.png`](system_design_for_beginners/dns_resolution.png): DNS process diagram (referenced in the guide).
+- [`summary.md`](system_design_for_beginners/summary.md): Summary notes for quick revision.
 
 ---
 
@@ -45,9 +45,9 @@ For a step-by-step deep dive, see [System Design for Beginners](system_design_fo
 
 Build scalable apps with these technologies:
 
-- **Redux** – Advanced state management
-- **Caching** – Performance optimization
-- **JWT Authentication** – Secure user authentication
+- **Redux** – Advanced state management  
+- **Caching** – Performance optimization  
+- **JWT Authentication** – Secure user authentication  
 - **Go Gin Gonic** – Reliable backend APIs with Go
 
 ---
@@ -56,21 +56,28 @@ Build scalable apps with these technologies:
 
 Key tools and concepts:
 
-- **LangChain** – Language model-powered applications
-- **Pydantic AI** – Data validation and config management in Python
-- **Apache Airflow** – Data workflow automation
-- **Agentic Browser** – Browser automation and agentic control
-- **N8N Automations** – Low-code workflow automation
+- **LangChain** – Language model-powered applications  
+- **Pydantic AI** – Data validation and config management in Python  
+- **Apache Airflow** – Data workflow automation  
+- **Agentic Browser** – Browser automation and agentic control  
+- **N8N Automations** – Low-code workflow automation  
 - **Firecracker VM** – MicroVMs for scalable workloads
 
 ---
 
 ## 🗂️ Quick Links
 
-- [System Design Beginner’s Guide](system_design_for_beginners/system_design_for_beginners.md)
-- [System Design Summary Notes](system_design_for_beginners/summary.md)
+- [System Design Beginner’s Guide](system_design_for_beginners/system_design_for_beginners.md)  
+- [System Design Summary Notes](system_design_for_beginners/summary.md)  
 - [DNS Diagram](system_design_for_beginners/dns_resolution.png)
 
+---
+
+## 📄 License
+
+© 2025 RANGDAL PAVANSAI — All rights reserved.  
+This repository is proprietary and not licensed for reuse, redistribution, or modification.  
+For inquiries, contact: pavansai87654321@gmail.com
 
 ---
 
