@@ -1,14 +1,44 @@
-# System Design & Full Stack Development Resources
+# 🌐 System Design & Full Stack Development Resources
 
-Welcome! This repository is a curated collection of resources for learning System Design, Full Stack Development, and key Artificial Intelligence (AI) topics. Here you’ll find high-quality video links, concise guides, and topical notes—all organized for self-paced study.
+Welcome!  
+This repository is a curated collection of resources for learning **System Design**, **Full Stack Development**, and key **Artificial Intelligence (AI)** topics. Here you’ll find high-quality video links, concise guides, and topical notes—all organized for self-paced study.
 
 ---
 
-## 📚 Repository Contents
+## 🗂️ File Structure
 
-- [`system_design_for_beginners.md`](system_design_for_beginners/system_design_for_beginners.md): In-depth beginner's guide to system design.
-- [`dns_resolution.png`](system_design_for_beginners/dns_resolution.png): DNS process diagram (referenced in the guide).
-- [`summary.md`](system_design_for_beginners/summary.md): Summary notes for quick revision.
+```
+system_design_for_beginners/
+│
+├── part_1_summary.md                # 📄 Summary of System Design for Beginners (Part 1)
+├── part_2_summary.md                # 📄 Summary of System Design for Beginners (Part 2)
+├── system_design_for_beginners_part_1.md   # 📝 Detailed notes from Part 1 video
+├── system_design_for_beginners_part_2.md   # 📝 Detailed notes from Part 2 video
+├── system_design_for_beginners_summary.md  # 📚 Combined summary of both parts
+├── dns_resolution.png               # 🖼️ DNS Resolution Process Diagram
+```
+
+---
+
+## 📒 System Design Summaries & Notes
+
+- **Part 1 Summary:**  
+  [📝 part_1_summary.md](system_design_for_beginners/part_1_summary.md)  
+  *Core components, DNS, Load Balancing, Microservices, API Gateway, Queue Systems, Rate Limiting, Database Replication, Caching, CDN, Anycast.*
+
+- **Part 2 Summary:**  
+  [📝 part_2_summary.md](system_design_for_beginners/part_2_summary.md)  
+  *Traffic patterns (Netflix/YouTube/Hotstar), Lambda & Serverless, pros/cons, Serverful architecture, Virtualization, Containerization, Kubernetes, Scaling strategies.*
+
+- **Combined Summary:**  
+  [📚 system_design_for_beginners_summary.md](system_design_for_beginners/system_design_for_beginners_summary.md)
+
+- **Full Notes:**  
+  [📒 System Design for Beginners – Part 1](system_design_for_beginners/system_design_for_beginners_part_1.md)  
+  [📒 System Design for Beginners – Part 2](system_design_for_beginners/system_design_for_beginners_part_2.md)
+
+- **DNS Diagram:**  
+  ![DNS Resolution Process](system_design_for_beginners/dns_resolution.png) <!-- image1 -->
 
 ---
 
@@ -37,8 +67,6 @@ A curated list of YouTube videos covering system design and related technologies
 19. [Event Driven Architecture](https://youtu.be/yy9cbu_e3Xg?si=QU0a4nRiaWa4OOy4)
 20. [Pub/Sub Messaging & Queues](https://youtu.be/vYelTr1uQmA?si=bGnYYzfNDAllIJCg)
 
-For a step-by-step deep dive, see [System Design for Beginners](system_design_for_beginners/system_design_for_beginners.md).
-
 ---
 
 ## 🧑‍💻 Full Stack Topics
@@ -65,15 +93,7 @@ Key tools and concepts:
 
 ---
 
-## 🗂️ Quick Links
-
-- [System Design Beginner’s Guide](system_design_for_beginners/system_design_for_beginners.md)  
-- [System Design Summary Notes](system_design_for_beginners/summary.md)  
-- [DNS Diagram](system_design_for_beginners/dns_resolution.png)
-
----
-
-## 📄 License
+## 📝 License
 
 © 2025 RANGDAL PAVANSAI — All rights reserved.  
 This repository is proprietary and not licensed for reuse, redistribution, or modification.  
@@ -81,4 +101,4 @@ For inquiries, contact: pavansai87654321@gmail.com
 
 ---
 
-**Happy Learning!**
+**Happy Learning! 🚀**
