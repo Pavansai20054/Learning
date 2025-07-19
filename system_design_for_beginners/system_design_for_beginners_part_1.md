@@ -1,4 +1,5 @@
-# [System Design for Beginners](https://youtu.be/lFeYU31TnQ8?si=YNKpJpP3uYFnnt88) - By Piysh Garg
+# [System Design for Beginners - Part 1](https://youtu.be/lFeYU31TnQ8?si=YNKpJpP3uYFnnt88) - By Piysh Garg
+
 
 ## **Table of Content**
 - Components of system Design
@@ -190,13 +191,13 @@ graph TD
 
 - Then the load balancer will check weather the server is healthy or not.
 
-- In Amazon world this load balancer is termed as ELB (Elastic Load Balancer).
+- In Amazon world this load balancer is termed as **ELB (Elastic Load Balancer)**.
 
 - Some times the load balancer may have chances of crash but the mirco - threads, workers will handle that crash.
 
 ### In horizantal scale we should use Load Balancer to balance the traffic and efficient use of all the servers.
 
-### In Vertical scale we don't have to use any load balancer because we are increasing the resources of the existing server itself.
+### In vertical scale we don't have to use any load balancer because we are increasing the resources of the existing server itself.
 
 ---
 
@@ -214,7 +215,7 @@ graph TD
 
 - If we want our website to work on different servers:
 
-- If the user enters the url like [amazon](https://www.amazon.com/) that should go to API services.
+- If the user enters the url like [amazon.com](https://www.amazon.com/) that should go to API services.
 
 - If the user enters the url like [Amazon orders](https://www.amazon.com/orders) that should go to orders service.
 
@@ -273,9 +274,9 @@ then we need to use **Route Routing/ API Gateway.**
 
 - In this case we can make this **Syncronous to Asyncronous**.
 
-- Instead of the Syncronous way we can setup a communication system (which is asyncronous) in between payments and email worker.
+- Instead of the Syncronous way we can setup a **communication system** (which is asyncronous) in between payments and email worker.
 
-- Mostly used communication system is Queue (FIFO).
+- Mostly used communication system is **Queue (FIFO)**.
 
 - Payment services will push the `order ID` of the payments in the queue whenever the order is placed.
 
@@ -288,17 +289,16 @@ then we need to use **Route Routing/ API Gateway.**
 
 - For this in amazon we use **SQS (Simple Queue System)**.
 
+- - In SQS it sends the acknowledgement back to the Queue.
+
 - There are two machinisms in this SQS:
   
-- In SQS it sends the acknowledgement back to the Queue.
-
-
   1. Push (From Queue to Email worker)
   2. Poll (The Email worker is requesting the queue for the order ID)
   
      - **Short poll:** For every second the Email worker will ask the Queue for the order ID. 
          
-         - Here in short polling the API calls are getting nincreased because the Email worker is asking the queue for the order ID for every second.
+         - Here in short polling the API calls are getting increased because the Email worker is asking the queue for the order ID for every second.
 
      - **Long poll:** For every 10 seconds the Email worker will ask the Queue for the order ID.
 ---
@@ -315,9 +315,9 @@ then we need to use **Route Routing/ API Gateway.**
 
 - SQS has one to one microservices communication, but SNS has one to many microservices communication.
 
-- **Event Ariven Archicture:** When a event occurs then the publisher will publish the event to SNS and SNS will be connected to all the microservices.
+- **Event Driven Archicture:** When a event occurs then the publisher will publish the event to SNS and SNS will be connected to all the microservices.
 
-- In Event Driven Archicture we have one drawback that is no acknowledgement is sent to the SNS back. (You have to build the Acknownedgement system).
+- In Event Driven Archicture we have one **drawback that is no acknowledgement** is sent to the SNS back. (You have to build the Acknownedgement system).
 
 
 ---
@@ -356,9 +356,9 @@ then we need to use **Route Routing/ API Gateway.**
 
 - Databases are used to store the data from all the services.
 
-- If it is completely filled, to maintain this databased we create database replicas.
+- If it is completely filled, to maintain this databases we create database replicas.
 
-- These replicas are called as read replicas
+- These replicas are called as **read replicas.**
 
 - The primary database is used for insert the data and to fetech the data.
 
@@ -380,7 +380,7 @@ then we need to use **Route Routing/ API Gateway.**
 
 - It will be infront of the Load Balancer, it will not expose the Load Balancer directly.
 
-- This CDN is called as CloudFront in Amazon's terminology.
+- This CDN is called as **CloudFront** in Amazon's terminology.
 
 - This cloudfront goes to all the regions of the world and deploys a machine.
 
