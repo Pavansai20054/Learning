@@ -16,6 +16,11 @@ system_design_for_beginners/
 ├── system_design_for_beginners_part_2.md   # 📝 Detailed notes from Part 2 video
 ├── system_design_for_beginners_summary.md  # 📚 Combined summary of both parts
 ├── dns_resolution.png               # 🖼️ DNS Resolution Process Diagram
+
+apcha_kafka/
+│
+├── apache_kafka_crash_course.md     # 📝 Detailed notes from Apache Kafka Crash Course video
+├── summary.md                      # 📄 Summary of Apache Kafka Crash Course
 ```
 
 ---
@@ -39,6 +44,16 @@ system_design_for_beginners/
 
 - **DNS Diagram:**  
   ![DNS Resolution Process](system_design_for_beginners/dns_resolution.png) <!-- image1 -->
+
+---
+
+## 📒 Apache Kafka Crash Course
+
+- **Detailed Notes:**  
+  [📝 apache_kafka_crash_course.md](apcha_kafka/apache_kafka_crash_course.md)
+
+- **Summary:**  
+  [📄 summary.md](apcha_kafka/summary.md)
 
 ---
 

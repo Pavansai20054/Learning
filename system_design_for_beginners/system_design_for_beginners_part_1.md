@@ -142,7 +142,7 @@ graph TD
 
 **Horzintal Scaling:**
 
-- The load will be on the first server, and if we see the there is more rush then we can start up the other machine or server.
+- The load will be on the first server, and if we see that there is more rush then we can start up the other machine or server.
 
 - In short, Horzintal Scaling is adding more servers.
 
@@ -266,13 +266,13 @@ then we need to use **Route Routing/ API Gateway.**
 
 - Whatever the response which the email worker got it from gmail api will be sent back to the payment services by the email worker.
 
-- This method is internal call for the worker and giving the work to him is called **Syncronous way**.
+- This method is internal call for the worker and giving the work to him is called **Synchronous way**.
 
 - Here the payment server will have to wait till the mail is sent by the email worker.
 
 - If every second one payment is done then it is **not scalable solution**.
 
-- In this case we can make this **Syncronous to Asyncronous**.
+- In this case we can make this **Synchronous  to Asynchronous**.
 
 - Instead of the Syncronous way we can setup a **communication system** (which is asyncronous) in between payments and email worker.
 
@@ -287,7 +287,7 @@ then we need to use **Route Routing/ API Gateway.**
 
 - To establish the communication between two microservices. 
 
-- For this in amazon we use **SQS (Simple Queue System)**.
+- For this in amazon we use **SQS (Simple Queue Service)**.
 
 - - In SQS it sends the acknowledgement back to the Queue.
 
