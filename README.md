@@ -17,6 +17,11 @@ system_design_for_beginners/
 ├── system_design_for_beginners_summary.md  # 📚 Combined summary of both parts
 ├── dns_resolution.png               # 🖼️ DNS Resolution Process Diagram
 
+api_gateway_and_load_balancers/
+│
+├── authorization_in_detail.md       # 📝 Comprehensive guide to access control systems
+└── authorization.md                 # 📖 Link to detailed guide on authorization systems
+
 apcha_kafka/
 │
 ├── apache_kafka_crash_course.md     # 📝 Detailed notes from Apache Kafka Crash Course video
@@ -29,11 +34,11 @@ apcha_kafka/
 
 - **Part 1 Summary:**  
   [📝 part_1_summary.md](system_design_for_beginners/part_1_summary.md)  
-  *Core components, DNS, Load Balancing, Microservices, API Gateway, Queue Systems, Rate Limiting, Database Replication, Caching, CDN, Anycast.*
+  _Core components, DNS, Load Balancing, Microservices, API Gateway, Queue Systems, Rate Limiting, Database Replication, Caching, CDN, Anycast._
 
 - **Part 2 Summary:**  
   [📝 part_2_summary.md](system_design_for_beginners/part_2_summary.md)  
-  *Traffic patterns (Netflix/YouTube/Hotstar), Lambda & Serverless, pros/cons, Serverful architecture, Virtualization, Containerization, Kubernetes, Scaling strategies.*
+  _Traffic patterns (Netflix/YouTube/Hotstar), Lambda & Serverless, pros/cons, Serverful architecture, Virtualization, Containerization, Kubernetes, Scaling strategies._
 
 - **Combined Summary:**  
   [📚 system_design_for_beginners_summary.md](system_design_for_beginners/system_design_for_beginners_summary.md)
@@ -44,6 +49,23 @@ apcha_kafka/
 
 - **DNS Diagram:**  
   ![DNS Resolution Process](system_design_for_beginners/dns_resolution.png) <!-- image1 -->
+
+---
+
+## 📒 API Gateway & Access Control Systems
+
+- **Access Control Guide:**  
+  [📝 authorization_in_detail.md](api_gateway_and_load_balancers/authorization_in_detail.md)  
+  _Comprehensive guide to authentication vs. authorization, RBAC, ABAC, PBAC, ReBAC, and enterprise-scale solutions like Google's Zanzibar._
+  [🔗 Read more about Authorization](api_gateway_and_load_balancers/authorization.md)
+
+This guide provides a detailed breakdown of modern authorization systems:
+
+- Clear explanations of the differences between authentication and authorization
+- In-depth analysis of five major access control models with real-world examples
+- Database implementation strategies for each access control approach
+- Enterprise-scale authorization solutions including Google's Zanzibar
+- Practical considerations for implementing authorization in your applications
 
 ---
 
@@ -64,7 +86,7 @@ A curated list of YouTube videos covering system design and related technologies
 1. [System Design for Beginners – By Piyush Garg](https://www.youtube.com/watch?v=lFeYU31TnQ8)
 2. [How to Design Scalable Systems](https://www.youtube.com/watch?v=YuB3OuF3MUE)
 3. [Microservices Architecture Explained](https://www.youtube.com/watch?v=ZJJHm_bd9Zo)
-4. [API Gateway & Load Balancer Concepts](https://youtu.be/Cy-o0LECWWU?si=aHFUU_1NcTG_H40R)
+4. [API Gateway & Load Balancer Concepts](https://youtu.be/Cy-o0LECWWU?si=aHFUU_1NcTG_H40R) - _See detailed notes in [authorization_in_detail.md](api_gateway_and_load_balancers/authorization_in_detail.md)_
 5. [Caching Strategies in Scalable Systems](https://youtu.be/a-nWPre5QYI?si=0rYB9ejQwBQbIc8i)
 6. [Message Broker Systems](https://youtu.be/C6HHmH6wwMs?si=bFy4g1x2USPLPlmj)
 7. [High Throughput System Design](https://youtu.be/sXMCzsCfopQ?si=s0St-WkpGhFv4QOi)
@@ -88,9 +110,9 @@ A curated list of YouTube videos covering system design and related technologies
 
 Build scalable apps with these technologies:
 
-- **Redux** – Advanced state management  
-- **Caching** – Performance optimization  
-- **JWT Authentication** – Secure user authentication  
+- **Redux** – Advanced state management
+- **Caching** – Performance optimization
+- **JWT Authentication** – Secure user authentication
 - **Go Gin Gonic** – Reliable backend APIs with Go
 
 ---
@@ -99,11 +121,11 @@ Build scalable apps with these technologies:
 
 Key tools and concepts:
 
-- **LangChain** – Language model-powered applications  
-- **Pydantic AI** – Data validation and config management in Python  
-- **Apache Airflow** – Data workflow automation  
-- **Agentic Browser** – Browser automation and agentic control  
-- **N8N Automations** – Low-code workflow automation  
+- **LangChain** – Language model-powered applications
+- **Pydantic AI** – Data validation and config management in Python
+- **Apache Airflow** – Data workflow automation
+- **Agentic Browser** – Browser automation and agentic control
+- **N8N Automations** – Low-code workflow automation
 - **Firecracker VM** – MicroVMs for scalable workloads
 
 ---
