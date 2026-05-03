@@ -86,7 +86,11 @@ A curated list of YouTube videos covering system design and related technologies
 1. [System Design for Beginners – By Piyush Garg](https://www.youtube.com/watch?v=lFeYU31TnQ8)
 2. [How to Design Scalable Systems](https://www.youtube.com/watch?v=YuB3OuF3MUE)
 3. [Microservices Architecture Explained](https://www.youtube.com/watch?v=ZJJHm_bd9Zo)
+<<<<<<< HEAD
 4. [API Gateway & Load Balancer Concepts](https://youtu.be/Cy-o0LECWWU?si=aHFUU_1NcTG_H40R)
+=======
+4. [API Gateway & Load Balancer Concepts](https://youtu.be/Cy-o0LECWWU?si=aHFUU_1NcTG_H40R) - _See detailed notes in [authorization_in_detail.md](api_gateway_and_load_balancers/authorization_in_detail.md)_
+>>>>>>> 906585223efb29fe7006d721e1bc254a0d758a4c
 5. [Caching Strategies in Scalable Systems](https://youtu.be/a-nWPre5QYI?si=0rYB9ejQwBQbIc8i)
 6. [Message Broker Systems](https://youtu.be/C6HHmH6wwMs?si=bFy4g1x2USPLPlmj)
 7. [High Throughput System Design](https://youtu.be/sXMCzsCfopQ?si=s0St-WkpGhFv4QOi)
